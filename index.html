@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intento 1</title>
+    <style>
+        body {
+            background-color: aquamarine;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            position: relative;
+            text-align: center;
+            height: 150px;
+            margin-top: 50px;
+        }
+
+        h1 {
+            position: relative;
+            z-index: 2;
+            margin: 0;
+            line-height: 150px;
+            color: black;
+            font-size: 50px;
+        }
+
+        .full-width-box {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgb(233, 246, 192);
+            z-index: 1;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            gap: 20px;
+            margin: 20px;
+        }
+
+        .content img {
+            max-width: 100%;
+            height: auto;
+            flex: 1;
+            max-width: 300px;
+        }
+
+        .content p {
+            flex: 2;
+            margin: 0;
+        }
+
+        p {
+            margin: 20px 0;
+        }
+
+        .floating-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-decoration: none;
+        }
+
+        .floating-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="full-width-box"></div>
+        <h1>Meiosis</h1>
+    </div>
+    <div class="content">
+        <img src="https://concepto.de/wp-content/uploads/2018/08/meiosis-2.0-e1634860090776.png" alt="Imagen insana rojo cabeza">
+        <p>La meiosis es un proceso de división celular que reduce a la mitad el número de cromosomas, formando células sexuales o gametos. Se divide en dos fases principales: Meiosis I y Meiosis II.</p>
+    </div>
+    <div class="content">
+        <img src="https://static.vecteezy.com/system/resources/previews/006/171/227/non_2x/the-four-mitosis-phases-prophase-metaphase-anaphase-and-telophase-infographic-illustration-vector.jpg" alt="imagen insana 2">
+        <p>En la Metafase I, los pares de cromosomas homólogos se alinean en el plano ecuatorial de la célula. Luego, en la Anafase I, los cromosomas homólogos se separan y se dirigen a los polos opuestos de la célula. Finalmente, en la Telofase I y Citocinesis, los cromosomas llegan a los polos y la célula se divide, formando dos células hijas haploides (n), cada una con un conjunto de cromosomas duplicados.</p>
+    </div>
+    <p>Este proceso es esencial para la formación de gametos en organismos que se reproducen sexualmente, ya que garantiza la variabilidad genética y asegura que las células hijas tengan la mitad del número de cromosomas.</p>
+    
+    <a href="https://gknz007.github.io/1L0V3Y0U/" class="floating-button" title="Ir a otra página">+</a>
+</body>
+</html>
